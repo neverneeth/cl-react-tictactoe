@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/cl-react-tictactoe/static/css/main.089bfe33.css",
+    "main.js": "/cl-react-tictactoe/static/js/main.bcd276fc.js",
+    "index.html": "/cl-react-tictactoe/index.html",
+    "main.089bfe33.css.map": "/cl-react-tictactoe/static/css/main.089bfe33.css.map",
+    "main.bcd276fc.js.map": "/cl-react-tictactoe/static/js/main.bcd276fc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.089bfe33.css",
+    "static/js/main.bcd276fc.js"
+  ]
+}
