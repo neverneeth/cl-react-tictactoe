@@ -1,0 +1,97 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  margin: 20px;
+  padding: 0;
+  line-height: 1.6;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  font-weight: 600;
+  color: #222;
+}
+
+h1 { font-size: 26px; }
+h2 { font-size: 22px; }
+h3 { font-size: 20px; }
+h4 { font-size: 18px; }
+h5 { font-size: 16px; }
+h6 { font-size: 14px; }
+
+code {
+  font-family: 'Fira Code', monospace;
+  background-color: #eee;
+  padding: 2px 4px;
+  border-radius: 4px;
+  font-size: 1.1em;
+}
+
+ul {
+  padding-inline-start: 24px;
+}
+
+.game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.status {
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.board {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.board-row {
+  display: flex;
+}
+
+.board-row::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.square {
+  background: #fff;
+  border: 2px solid #ccc;
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 40px;
+  height: 40px;
+  width: 40px;
+  margin: -1px 0 0 -1px;
+  text-align: center;
+  transition: background-color 0.3s, transform 0.2s;
+  cursor: pointer;
+}
+
+.square:hover {
+  background-color: #f0f0f0;
+  transform: scale(1.05);
+}
+
+.game-info {
+  margin-top: 20px;
+  font-size: 16px;
+  text-align: center;
+}
